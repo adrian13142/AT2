@@ -1,0 +1,107 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html,body {
+	width: 100%;
+	height: 100%;
+}
+header {
+	background-image: linear-gradient(rgba(42,58,74,0.85),rgba(42,58,74,0.85)), url(pics/rty.jpg) ;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+#pain {	
+	background: transparent;
+	width: 100%;
+	height: 50px;
+}
+
+#pain .logo {
+	float: left;
+}
+.logo {
+	background: url(pics/logo.png);
+	width: 150px;
+	height: 150px;
+	background-position:center ;
+	background-size: cover;
+	margin-left: 40px;
+	margin-top: -25px;
+}
+
+#pain nav ul {
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+#pain nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 50px;
+}
+
+#pain nav ul li a{
+	text-decoration: none;
+	color:  #fff;
+	font-size: 14px;
+	padding: 6px 13px;
+	trsnsition: 0.4s all ease-out;
+	font-family: 'Arial'; sans-serif;
+}
+
+#pain nav ul li a.active,
+#pain nav ul li a:hover{
+background:#FF0000;
+color: #fff;
+transition: 0.4s all ease-out;
+ }
+
+
+ .about{
+ 	width: 100%;
+ 	padding: 78px 0px;
+ }
+ .about img{
+ 	height: auto;
+ 	width: 420px;
+ }
+ .about-text{
+ 	width: 500px;
+ }
+ .main{
+ 	width: 1130px;
+ 	max-width: 95%;
+ 	margin: 0auto;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-around;
+ }
+ .about-text h1{
+ 	color: white;
+ 	font-size: 50px;
+ 	text-transform: capitalize;
+ 	margin-bottom: 25px;
+ 	font-family: 'Arial'; sans-serif;
+ }
+ .about-text h5{
+ 	color: white;
+ 	font-size: 30px;
+ 	text-transform: capitalize;
+ 	margin-bottom: 20px;
+ 	font-family: 'Arial'; sans-serif;
+ }
+ span{
+ 	color: #A71C1E;
+ }
+ .about p{
+ 	font-size: 20px;
+ 	color: white;
+ 	line-height: 28px;
+ 	margin-bottom: 45px;
+ 	font-family: 'Arial'; sans-serif;
+ }

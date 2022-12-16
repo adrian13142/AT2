@@ -1,0 +1,119 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html,body {
+	width: 100%;
+	height: 100%;
+}
+header {
+	background-image: linear-gradient(rgba(42,58,74,0.85),rgba(42,58,74,0.85)), url(pics/rty.jpg) ;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+#main {	
+	background: transparent;
+	width: 100%;
+	height: 50px;
+}
+
+#main .logo {
+	float: left;
+}
+.logo {
+	background: url(pics/logo.png);
+	width: 150px;
+	height: 150px;
+	background-position:center ;
+	background-size: cover;
+	margin-left: 40px;
+	margin-top: -25px;
+}
+
+#main nav ul {
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+#main nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 50px;
+}
+
+#main nav ul li a{
+	text-decoration: none;
+	color:  #fff;
+	font-size: 14px;
+	padding: 6px 13px;
+	trsnsition: 0.4s all ease-out;
+	font-family: 'Arial'; sans-serif;
+}
+
+#main nav ul li a.active,
+#main nav ul li a:hover{
+background:#FF0000;
+color: #fff;
+transition: 0.4s all ease-out;
+ }
+
+h3{
+	text-align: center;
+	font-size: 30px;
+	margin: 0;
+	padding-top: 10px;
+}
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0;
+}
+.content{
+	width: 20%;
+	margin: 15px;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	border-radius: 20px;
+	cursor: pointer;
+	padding-top: 10px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+	0 10px 10px rgba(0,0,0,0.22);
+	transition: .4s;
+	background:  none;
+}
+.content:hover{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+	0 3px 6px rgba(0,0,0,0.23);
+	transform: translate(0px, -8px);
+}
+img{
+	width: 350px;
+	height: 350px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+button{
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	background: #A71C1E;
+	width: 100%;
+	padding: 15px;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	margin-top: 5px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	font-family: 'Arial'; sans-serif;
+
+}
